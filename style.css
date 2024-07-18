@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(19, 10, 1);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cn {
+    border: 5px solid whitesmoke;
+    margin: 10px;
+    margin-top: 50px;
+    padding: 70px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+/* .delete{
+    border-radius: 5px;
+    margin-left: 110px;
+} */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.delete {
+    margin-left: auto;
+    /* Push the button to the right end of the flex container */
+}
+
+
+
+
+
+input {
+    border-radius: 5px;
+
+}
+
+button {
+    border-radius: 5px;
+}
